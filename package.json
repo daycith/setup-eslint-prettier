@@ -25,9 +25,6 @@
     "typescript": "^4.8.4"
   },
   "lint-staged": {
-    "{src,tests}/**/*.ts": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.(j|t)s": "eslint --fix"
   }
 }
