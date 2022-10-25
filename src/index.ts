@@ -6,4 +6,7 @@ type Productt = {
 const product: Productt = {
   name: "Product name",
   description: "The product description"
-};
+}
+
+
+
